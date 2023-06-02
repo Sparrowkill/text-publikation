@@ -1,0 +1,32 @@
+body{
+    padding: 25px;
+}
+table {
+    border-collapse: collapse;
+    /* Убираем двойные линии */
+    width: 100%;
+    /* Ширина таблицы */
+}
+
+td {
+    border: 1px solid #333;
+    /* Параметры границ */
+    padding: 4px;
+    /* Поля в ячейках */
+    text-align: center;
+    /* Выравнивание по центру */
+}
+
+td.header {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #c4cdd1c1;
+}
+
+table {
+    width: 500px;
+}
+
+th {
+    text-align: center;
+}
